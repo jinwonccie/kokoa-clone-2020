@@ -4,9 +4,12 @@
 
 /* Components*/
 @import "components/staus-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens*/
 @import "screen/login.css";
+@import "screen/friends.css";
 
 body {
   font-family: "Nanum Gothic", sans-serif;
