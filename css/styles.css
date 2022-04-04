@@ -6,13 +6,17 @@
 @import "components/staus-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+
 
 /* Screens*/
-@import "screen/login.css";
-@import "screen/friends.css";
+@import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+  color:#2e363e;
   font-family: "Nanum Gothic", sans-serif;
+  
 }
 
 .welcome-header {
