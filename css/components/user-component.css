@@ -1,3 +1,7 @@
+.user-component {
+    justify-content: space-between;
+}
+
 .user-component,
 .user-component_column:first-child {
     display: flex;
@@ -5,8 +9,8 @@
 }
 .user-component_avatar {
     width: 70px;
-    height: 75px;
-    border-radius: 25px;
+    height: 70px;
+    border-radius: 30px;
     margin-right: 20px;
 }
 .user-component_title {
@@ -17,4 +21,16 @@
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0,0,0,0.7)
+}
+.user-component_avatar--xl {
+    width: 80px;
+    height: 80px; 
+}
+.user-component_avatar--sm {
+    width: 60px;
+    height: 60px; 
+    border-radius: 25px;
+}
+.user-component_title--not-bold {
+    font-weight: 400;
 }
