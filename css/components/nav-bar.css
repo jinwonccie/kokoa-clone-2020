@@ -14,22 +14,12 @@
     position: relative;
 }
 .nav_link {
+    position: relative;
     color: #2e363e;
 }
+
 .nav_notification {
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    color: white;
     position: absolute;
-    bottom: 15px;
     left: 15px;
-}
-.nav_link {
-    color: #2e363e;
+    bottom: 15px;
 }
