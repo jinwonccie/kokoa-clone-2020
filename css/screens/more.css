@@ -1,3 +1,31 @@
 .more-screen, .icon-row {
     margin-top: 35px;
 }
+
+.more-suggestions_icons {
+    display: flex;
+}
+
+
+.more-suggestion_icon {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.more-suggestion_icon-image {
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.more-suggestion_icon-image i{
+    font-size: 32px;
+    color:white;
+}
