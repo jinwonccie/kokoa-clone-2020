@@ -10,10 +10,21 @@
     font-weight: 600;
     margin: 0 auto;
 }
+.alt-header_column {
+    width: 33%;
+}
 .alt-header_column:first-child {
     margin-right: auto;
 }
-
+.alt-header_column:nth-child(2) {
+    margin-right: auto;
+    text-align: center;
+}
 .alt-header_column:last-child {
     margin-left: auto;
+    display:flex;
+    justify-content: flex-end;
+}
+.alt-header_column span:last-child {
+    margin-left:20px;
 }
